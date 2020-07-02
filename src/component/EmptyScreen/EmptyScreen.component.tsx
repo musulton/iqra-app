@@ -1,9 +1,9 @@
 import React from 'react';
 import {View, Text} from 'react-native';
 
-import styles from './PlainScreen.styles';
+import styles from './EmptyScreen.styles';
 
-const PlainScreen = props => {
+const EmptyScreen = props => {
   return (
     <View style={styles.container}>
       <Text style={styles.plainText}>{props.text}</Text>
@@ -11,4 +11,4 @@ const PlainScreen = props => {
   );
 };
 
-export default PlainScreen;
+export default EmptyScreen;
